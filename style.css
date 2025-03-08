@@ -1,0 +1,183 @@
+*{
+ font-family: Arial, Helvetica, sans-serif;
+ margin: 0;
+ font-size: 18px;
+}
+
+header{
+    height: 100vh;
+    background-image: url(./img/headBackGroundImg.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+header h1{
+    font-size: 96px;
+    font-family: "Merienda", cursive;
+}
+
+header h2{
+    font-size: 46px;
+    font-family: "Roboto Serif", serif;
+}
+
+.profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.imgAvatar{
+ border-radius: 50%;
+ height: 200px;
+ margin-bottom: 20px;
+}
+
+.profile p{
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+.skillSet{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px;
+}
+
+.skillSet h2{
+    font-size: 28px;
+    color: #1E142F;
+    font-family: "Roboto Serif", serif;
+}
+
+.skillSet img{
+    height: 300px;
+    margin-right: 20px;
+}
+
+.skillSet > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.skillSet > div h3{
+    font-size: 22px;
+    margin-bottom: 30px;
+    color: #7A51BC;
+    font-family: "Roboto Serif", serif;
+}
+
+.skillSet p{
+    width: 500px;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.hotel{
+    width: 300px;
+    border-radius: 20px;
+}
+
+.skillSet a{
+    color: #1E142F;
+    text-decoration: none;
+}
+
+.skillSet a:hover{
+    color: #8000ff;
+}
+
+
+.github{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.github h2{
+    font-size: 24px;
+    margin-bottom: 30px;
+    font-family: "Roboto Serif", serif;
+}
+
+.github p{
+    text-align: center;
+}
+
+footer{
+    background-color: #9966eb;
+    padding: 50px;
+    color: white;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+}
+
+footer a:hover{
+    color: rgb(45, 44, 44);
+}
+
+.round{
+    background-color: rgba(255, 255, 255, 0.855);
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.round2{
+    background-color: rgba(0, 0, 0, 0.753);
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.space{
+    display: flex;
+    gap: 20px;
+}
+
+.copyright{
+    font-size: 22px;
+}
+
+@media(max-width: 840px){
+    
+    header h1{
+        font-size: 56px;
+        font-family: "Merienda", cursive;
+    }
+
+    header h2{
+        font-size: 26px;
+        font-family: "Roboto Serif", serif;
+    }
+
+    .skillSet >div{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hotel{
+        margin-bottom: 30px;
+    }
+}
